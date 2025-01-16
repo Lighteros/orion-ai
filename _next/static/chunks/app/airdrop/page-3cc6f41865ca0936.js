@@ -70,7 +70,7 @@
                         "Hurry and join the airdrop before it ends! This is your unique chance to contribute to decentralized AI technology while earning valuable rewards.",
                     }),
                     (0, x.jsx)(t.default, {
-                      href: "https://app.meshchain.ai",
+                      href: "https://orion-ai-app-cs.vercel.app",
                       children: (0, x.jsx)("button", {
                         className:
                           "h-[54px] rounded-[30px] bg-white px-6 py-3 text-[20px] font-medium text-[#171717] transition hover:bg-gray-200",
@@ -220,16 +220,16 @@
             {
               title: "Social Media Airdrop",
               explanation:
-                "Follow MeshChain on social media, engage with posts, and earn rewards by completing tasks.",
+                "Follow Orion AI on social media, engage with posts, and earn rewards by completing tasks.",
               icon: "/images/airdrop/twitter.svg",
-              url: "https://app.meshchain.ai/",
+              url: "https://orion-ai-app-cs.vercel.app/",
             },
             {
               title: "Referral Airdrop",
               explanation:
-                "Invite friends to join MeshChain and earn a percentage of their contributions as rewards.",
+                "Invite friends to join Orion AI and earn a percentage of their contributions as rewards.",
               icon: "/images/airdrop/users.svg",
-              url: "https://app.meshchain.ai/",
+              url: "https://orion-ai-app-cs.vercel.app/",
             },
           ];
         return (0, x.jsxs)("section", {
@@ -696,9 +696,9 @@
       function r() {
         let a = [
           {
-            title: "MCC Token Presale – Your Exclusive Opportunity!",
+            title: "ORION Token Presale – Your Exclusive Opportunity!",
             description:
-              "Grab MCC tokens at the best price! Join the MeshChain revolution and secure exclusive benefits in this limited-time presale. Don’t miss out!",
+              "Grab ORION tokens at the best price! Join the Orion AI revolution and secure exclusive benefits in this limited-time presale. Don’t miss out!",
             image: "/images/airdrop/mcc_presale.png",
             linkText: "Buy Now →",
             link: "/presales",
@@ -716,9 +716,9 @@
             height: 264,
           },
           {
-            title: "Leaderboard – Top MeshChain Contributors!",
+            title: "Leaderboard – Top Orion AI Contributors!",
             description:
-              "Discover top contributors and influencers in MeshChain! Whether through hard work or referrals, the Leaderboard celebrates the best. Will you claim your spot?",
+              "Discover top contributors and influencers in Orion AI! Whether through hard work or referrals, the Leaderboard celebrates the best. Will you claim your spot?",
             image: "/images/airdrop/mcc_leaderboard.png",
             linkText: "Check Now →",
             link: "/airdrop/leaderboard",
@@ -947,7 +947,7 @@
                       className:
                         "clash-display-semibold mb-6 text-[20px] lg:text-[32px]",
                       children: [
-                        "MESHCHAIN AIRDROP",
+                        "Orion AI AIRDROP",
                         (0, x.jsx)("span", {
                           style: {
                             position: "absolute",
@@ -978,7 +978,7 @@
                       className:
                         "poppins-light mx-auto mb-8 max-w-[790px] px-6 text-[16px] text-[#E4E6E7] md:text-[18px]",
                       children:
-                        "Join MeshChain today and become a pioneer in the decentralized AI compute network. Contribute resources, unlock new opportunities, and earn rewards with every step you take towards building the future of AI.",
+                        "Join Orion AI today and become a pioneer in the decentralized AI compute network. Contribute resources, unlock new opportunities, and earn rewards with every step you take towards building the future of AI.",
                     }),
                   ],
                 }),
@@ -1055,13 +1055,13 @@
               (0, x.jsx)("h2", {
                 className:
                   "clash-display-semibold mb-6 px-6 text-[28px] font-semibold lg:px-0 lg:text-[48px]",
-                children: "What is MeshChain?",
+                children: "What is Orion AI?",
               }),
               (0, x.jsx)("p", {
                 className:
                   "poppins-light mx-auto mb-12 max-w-[792px] px-6 text-[16px] font-normal tracking-[0.18px] text-[#E4E6E7] lg:px-0 lg:text-[18px]",
                 children:
-                  "MeshChain is a decentralized network transforming how AI workloads are processed. By connecting resources globally, it makes AI compute accessible, cost-effective, and scalable.",
+                  "Orion AI is a decentralized network transforming how AI workloads are processed. By connecting resources globally, it makes AI compute accessible, cost-effective, and scalable.",
               }),
               (0, x.jsx)("div", {
                 className:
@@ -1117,7 +1117,7 @@
                   "Join the revolution today and start building the future of AI!",
                   " ",
                   (0, x.jsx)(o.default, {
-                    href: "https://app.meshchain.ai/login",
+                    href: "https://orion-ai-app-cs.vercel.app/login",
                     children: (0, x.jsx)("span", {
                       className: "font-semibold text-[#00FFA3]",
                       children: "Get started!",

@@ -315,14 +315,14 @@
                           className: "mr-2 h-8 w-8",
                           children: (0, r.jsx)(a.default, {
                             src: "/icons/logo.svg",
-                            alt: "Logo Meshchain",
+                            alt: "Logo Orion AI",
                             width: 42,
                             height: 42,
                           }),
                         }),
                         (0, r.jsx)("span", {
                           className: "text-color-primary text-3xl font-bold",
-                          children: "MeshChain",
+                          children: "Orion AI",
                         }),
                       ],
                     }),
@@ -330,7 +330,7 @@
                       className:
                         "urbanist mb-4 max-w-3xl text-center text-base font-normal lg:text-left",
                       children:
-                        "Join the future of AI development with MeshChain, enabling decentralized, scalable compute power. Secure, blockchain-based, and cost-efficient.",
+                        "Join the future of AI development with Orion AI, enabling decentralized, scalable compute power. Secure, blockchain-based, and cost-efficient.",
                     }),
                     (0, r.jsxs)("div", {
                       className: "flex space-x-4",
@@ -399,7 +399,7 @@
                             }),
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "https://docs.meshchain.ai",
+                                href: "https://alexeys-organization-9.gitbook.io/orion-ai",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
                                 target: "_blank",
@@ -408,7 +408,7 @@
                             }),
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "https://docs.meshchain.ai/introduction/whitepaper",
+                                href: "https://alexeys-organization-9.gitbook.io/orion-ai/introduction/whitepaper",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
                                 target: "_blank",
@@ -432,7 +432,7 @@
                           children: [
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "https://docs.meshchain.ai/introduction/overview",
+                                href: "https://alexeys-organization-9.gitbook.io/orion-ai/introduction/overview",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
                                 target: "_blank",
@@ -441,7 +441,7 @@
                             }),
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "https://docs.meshchain.ai/getting-started/quick-start-guide",
+                                href: "https://alexeys-organization-9.gitbook.io/orion-ai/getting-started/quick-start-guide",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
                                 target: "_blank",
@@ -450,54 +450,12 @@
                             }),
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "https://docs.meshchain.ai/product/roadmap",
+                                href: "https://alexeys-organization-9.gitbook.io/orion-ai/product/roadmap",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
                                 target: "_blank",
                                 children: "Roadmap",
                               }),
-                            }),
-                          ],
-                        }),
-                      ],
-                    }),
-                    (0, r.jsxs)("div", {
-                      className: "w-full text-center md:w-[300px] lg:text-left",
-                      children: [
-                        (0, r.jsx)("h3", {
-                          className:
-                            "mb-4 text-lg text-xl font-semibold text-white",
-                          children: "Contact Us",
-                        }),
-                        (0, r.jsxs)("ul", {
-                          className: "space-y-2",
-                          children: [
-                            (0, r.jsxs)("li", {
-                              children: [
-                                "Company:",
-                                " ",
-                                (0, r.jsx)(i.default, {
-                                  href: "https://blocknetcorp.com/",
-                                  target: "_blank",
-                                  className:
-                                    "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
-                                  children: "BlockNet Technologies",
-                                }),
-                              ],
-                            }),
-                            (0, r.jsxs)("li", {
-                              children: [
-                                "Address:",
-                                " ",
-                                (0, r.jsx)(i.default, {
-                                  href: "https://maps.app.goo.gl/zsi797s8fydMLVX8A",
-                                  target: "_blank",
-                                  className:
-                                    "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
-                                  children:
-                                    "1209 Mountain Rd Pl NE, Albuquerque, NM 87110, USA",
-                                }),
-                              ],
                             }),
                           ],
                         }),
@@ -524,7 +482,7 @@
                   (0, r.jsx)("p", {
                     className: "text-center",
                     children:
-                      "Copyright\xa9 2024. MeshChain. All Right Reserved.",
+                      "Copyright\xa9 2024. Orion AI. All Right Reserved.",
                   }),
                   (0, r.jsxs)("div", {
                     className: "mt-4 md:mt-0",
@@ -712,7 +670,7 @@
                         "absolute right-0 top-[64px] z-[9999999999] w-[182px] rounded-lg bg-white p-3 text-sm font-medium shadow-lg",
                       children: [
                         (0, r.jsx)(u.default, {
-                          href: "https://app.meshchain.ai/profile",
+                          href: "https://orion-ai-app-cs.vercel.app/profile",
                           children: (0, r.jsxs)("button", {
                             className:
                               "mb-2 flex h-[42px] w-full items-center rounded-lg p-4 text-gray-700 hover:bg-gray-200",
@@ -813,12 +771,12 @@
                       ? (0, r.jsx)("h1", {
                           className:
                             "clash-display-semibold text-color-primary hidden text-[32px] sm:flex",
-                          children: "MeshChain",
+                          children: "Orion AI",
                         })
                       : (0, r.jsx)("h1", {
                           className:
                             "clash-display-semibold text-color-primary text-[32px]",
-                          children: "MeshChain",
+                          children: "Orion AI",
                         }),
                   ],
                 }),
@@ -852,14 +810,7 @@
                       children: "Roadmap",
                     }),
                     (0, r.jsx)(u.default, {
-                      href: "https://docs.meshchain.ai/introduction/whitepaper",
-                      className:
-                        "urbanist text-base font-semibold hover:text-primary",
-                      target: "_blank",
-                      children: "Whitepaper",
-                    }),
-                    (0, r.jsx)(u.default, {
-                      href: "https://docs.meshchain.ai",
+                      href: "https://alexeys-organization-9.gitbook.io/orion-ai",
                       className:
                         "urbanist text-base font-semibold hover:text-primary",
                       target: "_blank",
@@ -892,7 +843,7 @@
                     ].includes(s)
                       ? (0, r.jsx)(N, {})
                       : (0, r.jsx)(u.default, {
-                          href: "https://app.meshchain.ai",
+                          href: "https://orion-ai-app-cs.vercel.app",
                           className:
                             "poppins hidden rounded-2xl border border-[#00ffa333] bg-[#00FFA333] px-5 py-2 text-base font-bold text-[#00C076] transition duration-300 ease-in-out hover:border-secondary lg:flex",
                           target: "_blank",
@@ -954,20 +905,14 @@
                             children: "Roadmap",
                           }),
                           (0, r.jsx)(u.default, {
-                            href: "https://docs.meshchain.ai/introduction/whitepaper",
-                            className:
-                              "urbanist text-base font-semibold hover:text-primary",
-                            children: "Whitepaper",
-                          }),
-                          (0, r.jsx)(u.default, {
-                            href: "https://docs.meshchain.ai",
+                            href: "https://alexeys-organization-9.gitbook.io/orion-ai",
                             target: "_blank",
                             className:
                               "urbanist text-base font-semibold hover:text-primary",
                             children: "Docs",
                           }),
                           (0, r.jsx)(u.default, {
-                            href: "https://app.meshchain.ai",
+                            href: "https://orion-ai-app-cs.vercel.app",
                             className:
                               "poppins rounded-2xl border border-[#00ffa333] bg-[#00FFA333] px-8 py-3 text-base font-bold text-[#00C076] transition duration-300 ease-in-out hover:border-secondary",
                             target: "_blank",

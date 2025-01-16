@@ -300,7 +300,7 @@
                       className:
                         "urbanist mt-6 w-full text-base font-normal text-[#E4E6E7] lg:max-w-xl",
                       children:
-                        "By leveraging decentralized resources, MeshChain empowers businesses, developers, and gamers to access scalable compute power, driving innovation, efficiency, and growth in AI training, inference, and gaming.",
+                        "By leveraging decentralized resources, Orion AI empowers businesses, developers, and gamers to access scalable compute power, driving innovation, efficiency, and growth in AI training, inference, and gaming.",
                     }),
                     (0, i.jsxs)("div", {
                       className:
@@ -407,7 +407,7 @@
                         className:
                           "urbanist w-full text-center text-lg font-normal tracking-wider text-gray-300 md:w-3/6 md:text-left",
                         children:
-                          "Discover MeshChain’s worldwide presence with thousands of active nodes connecting resource providers and users.",
+                          "Discover Orion AI’s worldwide presence with thousands of active nodes connecting resource providers and users.",
                       }),
                     ],
                   }),
@@ -516,7 +516,7 @@
                         className:
                           "urbanist w-full text-center text-lg font-normal tracking-wider text-gray-300 md:w-3/6 md:text-left lg:w-5/12",
                         children:
-                          "Discover how MeshChain’s key features bring efficiency, scalability, and security to decentralized AI and gaming workloads.",
+                          "Discover how Orion AI’s key features bring efficiency, scalability, and security to decentralized AI and gaming workloads.",
                       }),
                     ],
                   }),
@@ -753,7 +753,7 @@
                     transition: { delay: 0.5, duration: 1 },
                     className: "mt-10 text-center",
                     children: (0, i.jsx)(m.default, {
-                      href: "https://docs.meshchain.ai/",
+                      href: "https://alexeys-organization-9.gitbook.io/orion-ai/",
                       target: "_blank",
                       children: (0, i.jsx)(E, {
                         className:
@@ -803,7 +803,7 @@
                           initial: { opacity: 0, x: -100 },
                           ...A,
                           children:
-                            "MeshChain offers tailored compute power, expert solutions, and scalable resources designed to drive AI innovation forward.",
+                            "Orion AI offers tailored compute power, expert solutions, and scalable resources designed to drive AI innovation forward.",
                         }),
                       ],
                     }),
@@ -821,7 +821,7 @@
                           children: "Join Airdrop",
                         }),
                         (0, i.jsx)(m.default, {
-                          href: "https://docs.meshchain.ai/",
+                          href: "https://alexeys-organization-9.gitbook.io/orion-ai/",
                           className:
                             "poppins max-w-[200px] rounded-2xl border border-white px-4 py-3.5 text-center text-base font-bold text-[#00C076] transition duration-300 ease-in-out hover:bg-white hover:text-black md:px-6",
                           target: "_blank",
@@ -1030,7 +1030,7 @@
                   ...A,
                   className:
                     "clash-display-semibold max-w-[70%] bg-gradient3 bg-clip-text text-[32px] leading-[38px] text-transparent lg:text-[56px] lg:leading-[67px]",
-                  children: "JOIN THE MESHCHAIN REVOLUTION",
+                  children: "JOIN THE Orion AI REVOLUTION",
                 }),
                 (0, i.jsx)(g.E.p, {
                   initial: { opacity: 0, y: 50 },
@@ -1043,7 +1043,7 @@
                   initial: { opacity: 0, y: 50 },
                   ...A,
                   children: (0, i.jsx)(m.default, {
-                    href: "https://docs.meshchain.ai/getting-started/quick-start-guide",
+                    href: "https://alexeys-organization-9.gitbook.io/orion-ai/getting-started/quick-start-guide",
                     children: (0, i.jsx)(E, {
                       className:
                         "poppins h-12 rounded-2xl bg-primary-gradient px-8 py-[14px] font-semibold text-[#003724] transition duration-300 ease-in-out hover:bg-[rgb(0,214,139)] hover:shadow-hover",
@@ -1067,18 +1067,18 @@
           w = [
             {
               quarter: "Q4 2024",
-              title: "Launch MeshChain, Browser Node, and airdrop.",
+              title: "Launch Orion AI, Browser Node, and airdrop.",
               image: "/images/roadmap/growing1.svg",
             },
             {
               quarter: "Q1 2025",
               title:
-                "Software Node, Dedicated Node, MCC Token, and list on DEX.",
+                "Software Node, Dedicated Node, ORION Token, and list on DEX.",
               image: "/images/roadmap/growing2.svg",
             },
             {
               quarter: "Q2 2025",
-              title: "Mobile app, staking, list MCC on CEX, and integrate AI.",
+              title: "Mobile app, staking, list ORION on CEX, and integrate AI.",
               image: "/images/roadmap/growing3.svg",
             },
             {
@@ -1195,7 +1195,7 @@
                     transition: { delay: 0.5, duration: 1 },
                     className: "mt-10 text-center",
                     children: (0, i.jsx)(m.default, {
-                      href: "https://docs.meshchain.ai/product/roadmap",
+                      href: "https://alexeys-organization-9.gitbook.io/orion-ai/product/roadmap",
                       target: "_blank",
                       children: (0, i.jsx)(E, {
                         className:

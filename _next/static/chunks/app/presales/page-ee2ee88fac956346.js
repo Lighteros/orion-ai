@@ -611,7 +611,7 @@
                                     "The tokens have been transferred to your wallet. Please check your balance in",
                                     " ",
                                     (0, s.jsx)(x.default, {
-                                      href: "https://app.meshchain.ai/wallet",
+                                      href: "https://orion-ai-app-cs.vercel.app/wallet",
                                       target: "_blank",
                                       className: "font-bold",
                                       children: "MeshChain Wallet",
@@ -1256,7 +1256,7 @@
                     className:
                       "text-xl font-medium leading-[30px] text-[#00FFA3]",
                     children: [
-                      "1 MCC = ",
+                      "1 ORION = ",
                       null == o ? void 0 : o.usd_price,
                       " USD",
                     ],
@@ -1558,7 +1558,7 @@
                                 " ",
                                 (0, s.jsx)("u", {
                                   children: (0, s.jsx)(x.default, {
-                                    href: "https://app.meshchain.ai/wallet/deposit",
+                                    href: "https://orion-ai-app-cs.vercel.app/wallet/deposit",
                                     target: "_blank",
                                     children: "deposit here",
                                   }),
@@ -1601,7 +1601,7 @@
                         children: "Don’t have enough tokens to buy MCC?",
                       }),
                       (0, s.jsx)(x.default, {
-                        href: "https://app.meshchain.ai/wallet/deposit",
+                        href: "https://orion-ai-app-cs.vercel.app/wallet/deposit",
                         className: "manrope text-sm font-medium text-[#00FFA3]",
                         target: "_blank",
                         children: "Deposit Now",
@@ -1845,14 +1845,14 @@
                           className:
                             "poppins mb-3 text-[18px] font-bold leading-[28.8px]",
                           style: { letterSpacing: "0.02em" },
-                          children: "1. Introduction to MCC Token",
+                          children: "1. Introduction to ORION Token",
                         }),
                         (0, s.jsx)("p", {
                           className:
                             "poppins-light text-sm font-normal leading-[22.4px]",
                           style: { letterSpacing: "0.02em" },
                           children:
-                            "MCC is the official token of the MeshChain ecosystem, powering transactions, rewards, and utilities across the network. With MCC, users can participate in the MeshChain network, enjoy exclusive benefits, and unlock potential growth in the AI and blockchain revolution.",
+                            "ORION is the official token of the Orion AI ecosystem, powering transactions, rewards, and utilities across the network. With MCC, users can participate in the Orion AI network, enjoy exclusive benefits, and unlock potential growth in the AI and blockchain revolution.",
                         }),
                         (0, s.jsx)("p", {
                           className:
@@ -1865,7 +1865,7 @@
                             "poppins-light mb-2 text-sm font-normal leading-[22.4px]",
                           style: { letterSpacing: "0.02em" },
                           children:
-                            "A pre-sale program allows early adopters to purchase tokens before they are made widely available. It’s an exclusive opportunity to secure MCC tokens at the best rates and become part of the MeshChain ecosystem from the very beginning.",
+                            "A pre-sale program allows early adopters to purchase tokens before they are made widely available. It’s an exclusive opportunity to secure ORION tokens at the best rates and become part of the Orion AI ecosystem from the very beginning.",
                         }),
                         (0, s.jsx)("b", { children: "During the pre-sale:" }),
                         (0, s.jsxs)("p", {
@@ -1895,7 +1895,7 @@
                               className: "ml-4",
                               style: { display: "list-item" },
                               children:
-                                "The MCC pre-sale is designed to prioritize fairness and transparency, ensuring everyone has a chance to participate.",
+                                "The ORION pre-sale is designed to prioritize fairness and transparency, ensuring everyone has a chance to participate.",
                             }),
                           ],
                         }),
@@ -1904,7 +1904,7 @@
                             "poppins mb-3 mt-5 text-[18px] font-bold leading-[28.8px]",
                           style: { letterSpacing: "0.02em" },
                           children:
-                            "3. Rules for the MCC Token Pre-Sale Program",
+                            "3. Rules for the ORION Token Pre-Sale Program",
                         }),
                         (0, s.jsxs)("div", {
                           className: "flex w-full flex-col gap-5",
@@ -1915,14 +1915,14 @@
                               style: { letterSpacing: "0.02em" },
                               children: [
                                 (0, s.jsx)("p", {
-                                  children: "3.1. MCC Supply and Allocation:",
+                                  children: "3.1. ORION Supply and Allocation:",
                                 }),
                                 (0, s.jsx)("p", {
                                   className:
                                     "poppins-light text-sm font-normal leading-[22.4px]",
                                   style: { letterSpacing: "0.02em" },
                                   children:
-                                    "MCC has a limited supply of 1 billion tokens, with a specific portion allocated for the pre-sale.",
+                                    "ORION has a limited supply of 1 billion tokens, with a specific portion allocated for the pre-sale.",
                                 }),
                                 (0, s.jsxs)("div", {
                                   children: [
@@ -1931,7 +1931,7 @@
                                         "poppins-light ml-4 font-normal",
                                       style: { display: "list-item" },
                                       children:
-                                        "Total MCC Token Supply: 1 billion tokens.",
+                                        "Total ORION Token Supply: 1 billion tokens.",
                                     }),
                                     (0, s.jsx)("span", {
                                       className:
@@ -2011,7 +2011,7 @@
                                         "poppins-light ml-4 font-normal",
                                       style: { display: "list-item" },
                                       children:
-                                        "Users must register and connect their MeshChain Wallet to participate.",
+                                        "Users must register and connect their Orion AI Wallet to participate.",
                                     }),
                                     (0, s.jsx)("span", {
                                       className:
@@ -2044,7 +2044,7 @@
                                     "poppins-light text-sm font-normal leading-[22.4px]",
                                   style: { letterSpacing: "0.02em" },
                                   children:
-                                    "MCC tokens purchased during the pre-sale will be distributed to user wallets immediately.",
+                                    "ORION tokens purchased during the pre-sale will be distributed to user wallets immediately.",
                                 }),
                               ],
                             }),
@@ -2092,13 +2092,13 @@
                 (0, s.jsx)("h4", {
                   className:
                     "text-xl font-semibold sm:text-[30px] sm:leading-[42px]",
-                  children: "MCC Pre-Sale",
+                  children: "ORION Pre-Sale",
                 }),
                 (0, s.jsxs)("p", {
                   className:
                     "poppins-light text-base font-normal text-[#F9F9F9]",
                   children: [
-                    "MCC is the official token of Meshchain AI.",
+                    "ORION is the official token of Orion AI AI.",
                     " ",
                     (0, s.jsx)("span", {
                       onClick: () => i(!0),
@@ -2172,7 +2172,7 @@
                           }),
                           (0, s.jsx)("p", {
                             className: "text-xl font-medium",
-                            children: "1 MCC = ".concat(a.usd_price, " USD"),
+                            children: "1 ORION = ".concat(a.usd_price, " USD"),
                           }),
                         ],
                       },

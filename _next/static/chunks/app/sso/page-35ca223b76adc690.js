@@ -231,7 +231,7 @@
             if (l) {
               if (!f) {
                 let t =
-                  "https://app.meshchain.ai" +
+                  "https://orion-ai-app-cs.vercel.app" +
                   "/login?redirect_uri=".concat(
                     encodeURIComponent(window.location.href),
                     "&grant_type=authorization_code"

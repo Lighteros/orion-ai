@@ -1,0 +1,140 @@
+@font-face {
+  font-family: ClashDisplay-Extralight;
+  src: url(/_next/static/media/ClashDisplay-Extralight.0c602d05.woff2)
+      format("woff2"),
+    url(/_next/static/media/ClashDisplay-Extralight.95961220.woff)
+      format("woff"),
+    url(/_next/static/media/ClashDisplay-Extralight.7760b230.ttf)
+      format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: ClashDisplay-Light;
+  src: url(/_next/static/media/ClashDisplay-Light.5ad08f51.woff2)
+      format("woff2"),
+    url(/_next/static/media/ClashDisplay-Light.49219271.woff) format("woff"),
+    url(/_next/static/media/ClashDisplay-Light.b8f6da6f.ttf) format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: ClashDisplay-Regular;
+  src: url(/_next/static/media/ClashDisplay-Regular.285d4436.woff2)
+      format("woff2"),
+    url(/_next/static/media/ClashDisplay-Regular.0a8af53f.woff) format("woff"),
+    url(/_next/static/media/ClashDisplay-Regular.bb1ff20c.ttf)
+      format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: ClashDisplay-Medium;
+  src: url(/_next/static/media/ClashDisplay-Medium.086a70dd.woff2)
+      format("woff2"),
+    url(/_next/static/media/ClashDisplay-Medium.b4029a77.woff) format("woff"),
+    url(/_next/static/media/ClashDisplay-Medium.578e340f.ttf) format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: ClashDisplay-Semibold;
+  src: url(/_next/static/media/ClashDisplay-Semibold.02d655c1.woff2)
+      format("woff2"),
+    url(/_next/static/media/ClashDisplay-Semibold.cffe86e9.woff) format("woff"),
+    url(/_next/static/media/ClashDisplay-Semibold.6a5bb13d.ttf)
+      format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: ClashDisplay-Bold;
+  src: url(/_next/static/media/ClashDisplay-Bold.271f7751.woff2) format("woff2"),
+    url(/_next/static/media/ClashDisplay-Bold.eb853a67.woff) format("woff"),
+    url(/_next/static/media/ClashDisplay-Bold.73023086.ttf) format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: ClashDisplay-Variable;
+  src: url(/_next/static/media/ClashDisplay-Variable.5860e2bc.woff2)
+      format("woff2"),
+    url(/_next/static/media/ClashDisplay-Variable.ad2aa7be.woff) format("woff"),
+    url(/_next/static/media/ClashDisplay-Variable.42cbe77e.ttf)
+      format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: urbanist;
+  font-style: normal;
+  src: local("Urbanist"),
+    url(/_next/static/media/Urbanist-VariableFont_wght.a3358ffb.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: urbanist;
+  font-weight: 400;
+  font-style: normal;
+  src: url(/_next/static/media/Urbanist-Light.26bf851a.ttf) format("truetype");
+}
+@font-face {
+  font-family: urbanist;
+  font-weight: 500;
+  font-style: normal;
+  src: url(/_next/static/media/Urbanist-Regular.f1dc8174.ttf) format("truetype");
+}
+@font-face {
+  font-family: urbanist;
+  font-weight: 600;
+  font-style: normal;
+  src: url(/_next/static/media/Urbanist-Medium.4873a301.ttf) format("truetype");
+}
+@font-face {
+  font-family: urbanist;
+  font-weight: 700;
+  font-style: normal;
+  src: url(/_next/static/media/Urbanist-SemiBold.82013b52.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: poppins;
+  font-weight: 600;
+  font-style: normal;
+  src: url(/_next/static/media/Poppins-Medium.a52d0bf0.ttf) format("truetype");
+}
+@font-face {
+  font-family: poppins-regular;
+  font-style: normal;
+  src: url(/_next/static/media/Poppins-Regular.4b4ebe20.ttf) format("truetype");
+}
+@font-face {
+  font-family: poppins-light;
+  font-style: normal;
+  src: url(/_next/static/media/Poppins-Light.8b20023e.ttf) format("truetype");
+}
+@font-face {
+  font-family: Manrope;
+  src: url(/_next/static/media/Manrope-Medium.41a1217e.woff2) format("woff2"),
+    url(/_next/static/media/Manrope-Medium.1a41d732.woff) format("woff"),
+    url(/_next/static/media/Manrope-Medium.9c7942d8.ttf) format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: Manrope;
+  src: url(/_next/static/media/Manrope-Bold.a3c6b422.woff2) format("woff2"),
+    url(/_next/static/media/Manrope-Bold.39845dda.woff) format("woff"),
+    url(/_next/static/media/Manrope-Bold.3b68638c.ttf) format("truetype");
+  font-weight: 600 900;
+  font-display: swap;
+  font-style: normal;
+}

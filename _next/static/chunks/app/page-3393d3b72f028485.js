@@ -1195,7 +1195,7 @@
                     transition: { delay: 0.5, duration: 1 },
                     className: "mt-10 text-center",
                     children: (0, i.jsx)(m.default, {
-                      href: "https://alexeys-organization-9.gitbook.io/orion-ai/roadmap",
+                      href: "https://alexeys-organization-9.gitbook.io/orion-ai/product/roadmap",
                       target: "_blank",
                       children: (0, i.jsx)(E, {
                         className:

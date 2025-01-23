@@ -256,63 +256,7 @@
           [i, s]
         ),
         s)
-          ? (0, t.jsx)("div", {
-              ref: a,
-              onMouseDown: (a) => {
-                k(!0), a.preventDefault();
-              },
-              onTouchStart: (a) => {
-                k(!0), a.preventDefault();
-              },
-              className:
-                "overflow-hidden-x fixed z-[9999999999] h-[90px] w-[90px] cursor-grab rounded-full active:cursor-grabbing md:h-[180px] md:w-[180px]",
-              style: {
-                left: "".concat(s.x, "px"),
-                top: "".concat(s.y, "px"),
-                position: "fixed",
-              },
-              children: (0, t.jsx)(o.default, {
-                href: "/presales",
-                children: (0, t.jsxs)("div", {
-                  className: "relative",
-                  children: [
-                    (0, t.jsx)(n, {
-                      animationData: r,
-                      loop: !0,
-                      style: {
-                        pointerEvents: "none",
-                        maxWidth: "1200px",
-                        width: "100%",
-                        zIndex: 100,
-                      },
-                      className: "relative",
-                    }),
-                    (0, t.jsx)(e.default, {
-                      src: "/images/airdrop/bg_dragable_mcc.svg",
-                      alt: "",
-                      width: 378,
-                      height: 135,
-                      className:
-                        "absolute top-[0px] w-full min-w-[208px] md:min-w-[378px]",
-                      style: {
-                        top: "50%",
-                        left: "50%",
-                        transform: "translate(-65%, -40%)",
-                        zIndex: 99,
-                      },
-                    }),
-                    (0, t.jsxs)("div", {
-                      className:
-                        "clash-display-semibold absolute top-[60px] z-[100] mx-auto w-full text-center text-[14px] leading-[14px] md:top-[120px] md:text-[26px] md:leading-[24px]",
-                      children: [
-                        (0, t.jsx)("div", { children: "MCC" }),
-                        (0, t.jsx)("div", { children: "PRESALE" }),
-                      ],
-                    }),
-                  ],
-                }),
-              }),
-            })
+          ? (0, t.jsx)("div", {})
           : null;
       };
     },

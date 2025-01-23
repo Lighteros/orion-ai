@@ -753,12 +753,12 @@
                     transition: { delay: 0.5, duration: 1 },
                     className: "mt-10 text-center",
                     children: (0, i.jsx)(m.default, {
-                      href: "https://alexeys-organization-9.gitbook.io/orion-ai/",
+                      href: "https://orion-ai-app-cs.vercel.app/",
                       target: "_blank",
                       children: (0, i.jsx)(E, {
                         className:
                           "poppins h-12 rounded-2xl bg-primary-gradient px-8 py-[14px] font-semibold text-[#003724] transition duration-300 ease-in-out hover:bg-[rgb(0,214,139)] hover:shadow-hover",
-                        children: "Explore Features",
+                        children: "Launch App",
                       }),
                     }),
                   }),
@@ -815,10 +815,10 @@
                       transition: { delay: 0.9, duration: 1 },
                       children: [
                         (0, i.jsx)(m.default, {
-                          href: "/airdrop",
+                          href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000",
                           className:
                             "poppins max-w-[200px] rounded-2xl bg-primary-gradient px-4 py-3.5 text-center text-base font-bold text-[#003724] transition duration-300 ease-in-out hover:bg-[rgb(0,214,139)] hover:shadow-hover md:px-6",
-                          children: "Join Airdrop",
+                          children: "Buy ORION",
                         }),
                         (0, i.jsx)(m.default, {
                           href: "https://alexeys-organization-9.gitbook.io/orion-ai/",
@@ -1043,7 +1043,7 @@
                   initial: { opacity: 0, y: 50 },
                   ...A,
                   children: (0, i.jsx)(m.default, {
-                    href: "https://alexeys-organization-9.gitbook.io/orion-ai/getting-started/quick-start-guide",
+                    href: "https://orion-ai-app-cs.vercel.app/",
                     children: (0, i.jsx)(E, {
                       className:
                         "poppins h-12 rounded-2xl bg-primary-gradient px-8 py-[14px] font-semibold text-[#003724] transition duration-300 ease-in-out hover:bg-[rgb(0,214,139)] hover:shadow-hover",
@@ -1195,7 +1195,7 @@
                     transition: { delay: 0.5, duration: 1 },
                     className: "mt-10 text-center",
                     children: (0, i.jsx)(m.default, {
-                      href: "https://alexeys-organization-9.gitbook.io/orion-ai/product/roadmap",
+                      href: "https://alexeys-organization-9.gitbook.io/orion-ai/roadmap",
                       target: "_blank",
                       children: (0, i.jsx)(E, {
                         className:

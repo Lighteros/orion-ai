@@ -336,7 +336,7 @@
                       className: "flex space-x-4",
                       children: [
                         (0, r.jsx)(i.default, {
-                          href: "https://x.com/meshchainai",
+                          href: "https://x.com/OrionAI_ERC20",
                           className: "text-lightGray hover:text-white",
                           target: "_blank",
                           children: (0, r.jsx)(a.default, {
@@ -347,7 +347,7 @@
                           }),
                         }),
                         (0, r.jsx)(i.default, {
-                          href: "https://t.me/MeshchainAi",
+                          href: "https://t.me/OrionAI_ERC20",
                           className: "text-lightGray hover:text-white",
                           target: "_blank",
                           children: (0, r.jsx)(a.default, {
@@ -358,12 +358,12 @@
                           }),
                         }),
                         (0, r.jsx)(i.default, {
-                          href: "https://discord.gg/JQ3PYHcdgZ",
+                          href: "https://www.dextools.io/app/en/ether/pool-explorer/0x00000000000000000000000000000000000000",
                           className: "text-lightGray hover:text-white",
                           target: "_blank",
                           children: (0, r.jsx)(a.default, {
-                            src: "/icons/discord.svg",
-                            alt: "Discord",
+                            src: "/logo_dt.png",
+                            alt: "Dextools",
                             width: 24,
                             height: 24,
                           }),
@@ -384,35 +384,35 @@
                         (0, r.jsx)("h3", {
                           className:
                             "mb-4 text-lg text-xl font-semibold text-white",
-                          children: "Menu",
+                          children: "Buy Links",
                         }),
                         (0, r.jsxs)("ul", {
                           className: "space-y-2",
                           children: [
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "/",
+                                href: "https://etherscan.io/token/0x00000000000000000000000000000000000000",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
-                                children: "Home",
+                                children: "Contract Address",
                               }),
                             }),
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "https://alexeys-organization-9.gitbook.io/orion-ai",
+                                href: "https://www.dextools.io/app/en/ether/pool-explorer/0x00000000000000000000000000000000000000",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
                                 target: "_blank",
-                                children: "Document",
+                                children: "Dextools",
                               }),
                             }),
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "https://alexeys-organization-9.gitbook.io/orion-ai/introduction/whitepaper",
+                                href: "https://dexscreener.com/ethereum/0x0123456789",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
                                 target: "_blank",
-                                children: "Whitepaper",
+                                children: "Dexscreener",
                               }),
                             }),
                           ],
@@ -425,36 +425,36 @@
                         (0, r.jsx)("h3", {
                           className:
                             "urbanist mb-4 text-xl font-semibold text-white",
-                          children: "Quick Links",
+                          children: "Contacts",
                         }),
                         (0, r.jsxs)("ul", {
                           className: "space-y-2",
                           children: [
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "https://alexeys-organization-9.gitbook.io/orion-ai/introduction/overview",
+                                href: "https://alexeys-organization-9.gitbook.io/orion-ai",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
                                 target: "_blank",
-                                children: "Introduction",
+                                children: "Document",
                               }),
                             }),
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "https://alexeys-organization-9.gitbook.io/orion-ai/getting-started/quick-start-guide",
+                                href: "https://t.me/OrionAI_ERC20",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
                                 target: "_blank",
-                                children: "Getting Started",
+                                children: "Telegram",
                               }),
                             }),
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "https://alexeys-organization-9.gitbook.io/orion-ai/product/roadmap",
+                                href: "https://x.com/OrionAI_ERC20",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
                                 target: "_blank",
-                                children: "Roadmap",
+                                children: "Twitter",
                               }),
                             }),
                           ],
@@ -482,20 +482,15 @@
                   (0, r.jsx)("p", {
                     className: "text-center",
                     children:
-                      "Copyright\xa9 2024. Orion AI. All Right Reserved.",
+                      "Copyright\xa9 2025. Orion AI. All Right Reserved.",
                   }),
                   (0, r.jsxs)("div", {
                     className: "mt-4 md:mt-0",
                     children: [
                       (0, r.jsx)(i.default, {
-                        href: "/pages/terms",
+                        href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000",
                         className: "mr-4 hover:text-primary",
-                        children: "Terms and Conditions",
-                      }),
-                      (0, r.jsx)(i.default, {
-                        href: "/pages/privacy",
-                        className: "hover:text-primary",
-                        children: "Privacy Policy",
+                        children: "Buy On Uniswap",
                       }),
                     ],
                   }),

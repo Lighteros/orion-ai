@@ -821,7 +821,7 @@
                           children: "Buy ORION",
                         }),
                         (0, i.jsx)(m.default, {
-                          href: "https://alexeys-organization-9.gitbook.io/orion-ai/",
+                          href: "https://lewy0s-organization.gitbook.io/orion-ai/",
                           className:
                             "poppins max-w-[200px] rounded-2xl border border-white px-4 py-3.5 text-center text-base font-bold text-[#00C076] transition duration-300 ease-in-out hover:bg-white hover:text-black md:px-6",
                           target: "_blank",
@@ -1195,7 +1195,7 @@
                     transition: { delay: 0.5, duration: 1 },
                     className: "mt-10 text-center",
                     children: (0, i.jsx)(m.default, {
-                      href: "https://alexeys-organization-9.gitbook.io/orion-ai/product/roadmap",
+                      href: "https://lewy0s-organization.gitbook.io/orion-ai/product/roadmap",
                       target: "_blank",
                       children: (0, i.jsx)(E, {
                         className:

@@ -432,7 +432,7 @@
                           children: [
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "https://alexeys-organization-9.gitbook.io/orion-ai",
+                                href: "https://lewy0s-organization.gitbook.io/orion-ai",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
                                 target: "_blank",
@@ -805,7 +805,7 @@
                       children: "Roadmap",
                     }),
                     (0, r.jsx)(u.default, {
-                      href: "https://alexeys-organization-9.gitbook.io/orion-ai",
+                      href: "https://lewy0s-organization.gitbook.io/orion-ai",
                       className:
                         "urbanist text-base font-semibold hover:text-primary",
                       target: "_blank",
@@ -900,7 +900,7 @@
                             children: "Roadmap",
                           }),
                           (0, r.jsx)(u.default, {
-                            href: "https://alexeys-organization-9.gitbook.io/orion-ai",
+                            href: "https://lewy0s-organization.gitbook.io/orion-ai",
                             target: "_blank",
                             className:
                               "urbanist text-base font-semibold hover:text-primary",

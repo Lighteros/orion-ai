@@ -1176,6 +1176,9 @@
     ></script>
     <script>
       function triggerAnimations() {
+        // Only run if animations haven't been triggered yet
+        if (window.animationsTriggered) return;
+        
         // Select all elements with opacity: 0 or transform styles
         const animatedElements = document.querySelectorAll('[style*="opacity: 0"]');
         
@@ -1186,7 +1189,17 @@
             element.style.opacity = '1';
             element.style.transform = 'none';
             element.style.transition = 'all 0.5s ease-out';
+            
+            // Remove the style attribute after animation completes
+            element.addEventListener('transitionend', () => {
+              // Keep only essential styles if needed
+              element.removeAttribute('style');
+              element.classList.add('animated'); // Optional: add class to mark as animated
+            }, { once: true });
           });
+          
+          // Mark animations as triggered
+          window.animationsTriggered = true;
         }, 100);
       }
     

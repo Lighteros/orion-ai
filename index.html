@@ -1175,118 +1175,43 @@
       async=""
     ></script>
     <script>
-      // Function to load scripts in sequence
-      function loadScripts(scripts, callback) {
-        if (scripts.length === 0) {
-          if (callback) callback();
-          return;
-        }
-    
-        const script = document.createElement('script');
-        script.src = scripts[0];
-        script.onload = function() {
-          loadScripts(scripts.slice(1), callback);
-        };
-        document.body.appendChild(script);
+      function triggerAnimations() {
+        // Only run if animations haven't been triggered yet
+        if (window.animationsTriggered) return;
+        
+        // Select all elements with opacity: 0 or transform styles
+        const animatedElements = document.querySelectorAll('[style*="opacity: 0"]');
+        
+        // Add a small delay to ensure DOM is fully loaded
+        setTimeout(() => {
+          animatedElements.forEach(element => {
+            // Reset the styles to trigger animations
+            element.style.opacity = '1';
+            element.style.transform = 'none';
+            element.style.transition = 'all 1s ease-out';
+            
+            // Remove the style attribute after animation completes
+            element.addEventListener('transitionend', () => {
+              // Keep only essential styles if needed
+              element.removeAttribute('style');
+              element.classList.add('animated'); // Optional: add class to mark as animated
+            }, { once: true });
+          });
+          
+          // Mark animations as triggered
+          window.animationsTriggered = true;
+        }, 100);
       }
     
-      // List your scripts in the order they should load
-      const scripts = [
-        '/_next/static/chunks/webpack-7c1d3e7449a16462.js',
-        '/_next/static/chunks/fd9d1056-443487c7a9f07fb9.js',
-        '/_next/static/chunks/23-76954c03a5335333.js',
-        '/_next/static/chunks/main-app-2e660ed0290f68c3.js',
-        '/_next/static/chunks/974-060ce2372c0943f3.js',
-        '/_next/static/chunks/140-9466d18c6830cefc.js',
-        '/_next/static/chunks/702-00412f75b5054bfe.js',
-        '/_next/static/chunks/293-1b6ec0fb79df596c.js',
-        '/_next/static/chunks/356-8fbb994fbba0650d.js',
-        '/_next/static/chunks/app/page-3393d3b72f028485.js',
-        '/_next/static/chunks/0e5ce63c-eefaf3873631e429.js',
-        '/_next/static/chunks/684-5e3dfd0f7766e930.js',
-        '/_next/static/chunks/956-f3745adcbf6cb992.js',
-        '/_next/static/chunks/143-d68046820f01add5.js',
-        '/_next/static/chunks/905-49e5346fd1a50b25.js',
-        '/_next/static/chunks/app/layout-8e5290155925b8f7.js'
-      ];
+      // Trigger animations when DOM is loaded
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', triggerAnimations);
+      } else {
+        triggerAnimations();
+      }
     
-      // Start loading scripts
-      loadScripts(scripts);
-    </script>    
-    <script>
-      (self.__next_f = self.__next_f || []).push([0]);
-      self.__next_f.push([2, null]);
-    </script>
-    <script>
-      self.__next_f.push([
-        1,
-        '1:HL["/_next/static/css/fb9a9af3f6f81ba5.css","style"]\n2:HL["/_next/static/css/8e3f2aac07e1e1dd.css","style"]\n3:HL["/_next/static/css/22ff76f5fbcd07ed.css","style"]\n',
-      ]);
-    </script>
-    <script>
-      self.__next_f.push([
-        1,
-        '4:I[5751,[],""]\n6:I[6513,[],"ClientPageRoot"]\n7:I[3205,["974","static/chunks/974-060ce2372c0943f3.js","140","static/chunks/140-9466d18c6830cefc.js","702","static/chunks/702-00412f75b5054bfe.js","293","static/chunks/293-1b6ec0fb79df596c.js","356","static/chunks/356-8fbb994fbba0650d.js","931","static/chunks/app/page-3393d3b72f028485.js"],"default",1]\na:I[6130,[],""]\nb:[]\n0:["$","$L4",null,{"buildId":"SWMs3xDoYdghFdzn9lhs7","assetPrefix":"","urlParts":["",""],"initialTree":["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"initialSeedData":["",{"children":["__PAGE__",{},[["$L5",["$","$L6",null,{"props":{"params":{},"searchParams":{}},"Component":"$7"}],null],null],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fb9a9af3f6f81ba5.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/8e3f2aac07e1e1dd.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/22ff76f5fbcd07ed.css","precedence":"next","crossOrigin":"$undefined"}]],"$L8"],null],null],"couldBeIntercepted":false,"initialHead":[null,"$L9"],"globalErrorComponent":"$a","missingSlots":"$Wb"}]\n',
-      ]);
-    </script>
-    <script>
-      self.__next_f.push([
-        1,
-        'c:I[9593,["310","static/chunks/0e5ce63c-eefaf3873631e429.js","974","static/chunks/974-060ce2372c0943f3.js","684","static/chunks/684-5e3dfd0f7766e930.js","140","static/chunks/140-9466d18c6830cefc.js","956","static/chunks/956-f3745adcbf6cb992.js","702","static/chunks/702-00412f75b5054bfe.js","293","static/chunks/293-1b6ec0fb79df596c.js","143","static/chunks/143-d68046820f01add5.js","905","static/chunks/905-49e5346fd1a50b25.js","185","static/chunks/app/layout-8e5290155925b8f7.js"],""]\nd:I[1422,["310","static/chunks/0e5ce63c-eefaf3873631e429.js","974","static/chunks/974-060ce2372c0943f3.js","684","static/chunks/684-5e3dfd0f7766e930.js","140","static/chunks/140-9466d18c6830cefc.js","956","static/chunks/956-f3745adcbf6cb992.js","702","static/chunks/702-00412f75b5054bfe.js","293","static/chunks/293-1b6ec0fb79df596c.js","143","static/chunks/143-d68046820f01add5.js","905","static/chunks/905-49e5346fd1a50b25.js","185","static/chunks/app/layout-8e5290155925b8f7.js"],"Toaster",1]\ne:I[5956,["310","static/chunks/0e5ce63c-eefaf3873631e429.js","974","static/chunks/974-060ce2372c0943f3.js","684","static/chunks/684-5e3dfd0f7766e930.js","140","static/chunks/140-9466d18c6830cefc.js","956","static/chunks/956-f3745adcbf6cb992.js","702","static/chunks/702-00412f75b5054bfe.js","293","static/chunks/293-1b6ec0fb79df596c.js","143","static/chunks/143-d68046820f01add5.js","905","static/chunks/905-49e5346fd1a50b25.js","185","static/chunks/app/layout-8e5290155925b8f7.js"],"ToastContainer",1]\nf:I[5666,["310","static/chunks/0e5ce63c-eefaf3873631e429.js","974","static/chunks/974-060ce2372c0943f3.js","684","static/chunks/684-5e3dfd0f7766e930.js","140","static/chunks/140-9466d18c6830cefc.js","956","static/chunks/956-f3745adcbf6cb992.js","702","static/chunks/702-00412f75b5054bfe.js","293","static/chunks/293-1b6ec0fb79df596c.js","143","static/chunks/143-d68046820f01add5.js","905","static/chunks/905-49e5346fd1a50b25.js","185","static/chunks/app/layout-8e5290155925b8f7.js"],"MusicProvider",1]\n10:I[1361,["310","static/chunks/0e5ce63c-eefaf3873631e429.js',
-      ]);
-    </script>
-    <script>
-      self.__next_f.push([
-        1,
-        '","974","static/chunks/974-060ce2372c0943f3.js","684","static/chunks/684-5e3dfd0f7766e930.js","140","static/chunks/140-9466d18c6830cefc.js","956","static/chunks/956-f3745adcbf6cb992.js","702","static/chunks/702-00412f75b5054bfe.js","293","static/chunks/293-1b6ec0fb79df596c.js","143","static/chunks/143-d68046820f01add5.js","905","static/chunks/905-49e5346fd1a50b25.js","185","static/chunks/app/layout-8e5290155925b8f7.js"],"default",1]\n11:I[5915,["310","static/chunks/0e5ce63c-eefaf3873631e429.js","974","static/chunks/974-060ce2372c0943f3.js","684","static/chunks/684-5e3dfd0f7766e930.js","140","static/chunks/140-9466d18c6830cefc.js","956","static/chunks/956-f3745adcbf6cb992.js","702","static/chunks/702-00412f75b5054bfe.js","293","static/chunks/293-1b6ec0fb79df596c.js","143","static/chunks/143-d68046820f01add5.js","905","static/chunks/905-49e5346fd1a50b25.js","185","static/chunks/app/layout-8e5290155925b8f7.js"],"Navbar",1]\n12:I[9275,[],""]\n13:I[1343,[],""]\n14:I[4084,["310","static/chunks/0e5ce63c-eefaf3873631e429.js","974","static/chunks/974-060ce2372c0943f3.js","684","static/chunks/684-5e3dfd0f7766e930.js","140","static/chunks/140-9466d18c6830cefc.js","956","static/chunks/956-f3745adcbf6cb992.js","702","static/chunks/702-00412f75b5054bfe.js","293","static/chunks/293-1b6ec0fb79df596c.js","143","static/chunks/143-d68046820f01add5.js","905","static/chunks/905-49e5346fd1a50b25.js","185","static/chunks/app/layout-8e5290155925b8f7.js"],"default",1]\n15:I[3612,["310","static/chunks/0e5ce63c-eefaf3873631e429.js","974","static/chunks/974-060ce2372c0943f3.js","684","static/chunks/684-5e3dfd0f7766e930.js","140","static/chunks/140-9466d18c6830cefc.js","956","static/chunks/956-f3745adcbf6cb992.js","702","static/chunks/702-00412f75b5054bfe.js","293","static/chunks/293-1b6ec0fb79df596c.js","143","static/chunks/143-d68046820f01add5.js","905","static/chunks/905-49e5346fd1a50b25.js","185","static/chunks/app/layout-8e5290155925b8f7.js"],"GoogleAnalytics"]\n',
-      ]);
-    </script>
-    <script>
-      self.__next_f.push([
-        1,
-        '8:["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"async":true,"src":"https://www.googletagmanager.com/gtag/js?id=AW-16783507022"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\\n              window.dataLayer = window.dataLayer || [];\\n              function gtag(){dataLayer.push(arguments);}\\n              gtag(\'js\', new Date());\\n              gtag(\'config\', \'AW-16783507022\');\\n            "}}],["$","script",null,{"async":true,"src":"https://www.googletagmanager.com/gtag/js?id=AW-16783517187"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\\n              window.dataLayer = window.dataLayer || [];\\n              function gtag(){dataLayer.push(arguments);}\\n              gtag(\'js\', new Date());\\n              gtag(\'config\', \'AW-16783517187\');\\n            "}}]]}],["$","body",null,{"suppressHydrationWarning":true,"children":[["$","$Lc",null,{"showSpinner":false}],["$","$Ld",null,{}],["$","$Le",null,{"position":"top-right","autoClose":5000,"hideProgressBar":false,"newestOnTop":false,"closeOnClick":true,"rtl":false,"pauseOnFocusLoss":true,"draggable":true,"pauseOnHover":true}],["$","$Lf",null,{"children":["$","$L10",null,{"children":["$","main",null,{"className":"bg w-full max-w-[100%] overflow-hidden","children":[["$","$L11",null,{}],["$","$L12",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L13",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\\"Segoe UI\\",Roboto,Helvetica,Arial,sans-serif,\\"Apple Color Emoji\\",\\"Segoe UI Emoji\\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],["$","$L14",null,{}]]}]}]}]]}],["$","$L15",null,{"gaId":"G-ZWJGRM7TZZ"}]]}]\n',
-      ]);
-    </script>
-    <script>
-      self.__next_f.push([
-        1,
-        '9:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Orion AI - Decentralized Compute Network for AI Training, Inference, and Gaming Rendering"}],["$","meta","3",{"name":"description","content":"Explore Orion AI, a decentralized compute network offering scalable solutions for AI training, inference, and gaming rendering. Unlock cost-efficient power and secure blockchain-based performance."}],["$","link","4",{"rel":"icon","href":"/icons/logo.svg"}]]\n5:null\n',
-      ]);
-    </script>
-    <script>
-      (function () {
-        function c() {
-          var b = a.contentDocument || a.contentWindow.document;
-          if (b) {
-            var d = b.createElement("script");
-            d.innerHTML =
-              "window.__CF$cv$params={r:'902e7a2028afeb2a',t:'MTczNzAzNDQwMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
-            b.getElementsByTagName("head")[0].appendChild(d);
-          }
-        }
-        if (document.body) {
-          var a = document.createElement("iframe");
-          a.height = 1;
-          a.width = 1;
-          a.style.position = "absolute";
-          a.style.top = 0;
-          a.style.left = 0;
-          a.style.border = "none";
-          a.style.visibility = "hidden";
-          document.body.appendChild(a);
-          if ("loading" !== document.readyState) c();
-          else if (window.addEventListener)
-            document.addEventListener("DOMContentLoaded", c);
-          else {
-            var e = document.onreadystatechange || function () {};
-            document.onreadystatechange = function (b) {
-              e(b);
-              "loading" !== document.readyState &&
-                ((document.onreadystatechange = e), c());
-            };
-          }
-        }
-      })();
+      // Backup trigger for dynamic content
+      window.addEventListener('load', triggerAnimations);
     </script>
   </body>
 </html>

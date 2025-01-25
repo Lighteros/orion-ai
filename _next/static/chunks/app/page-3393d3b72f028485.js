@@ -1066,7 +1066,7 @@
           [a, n] = (0, s.useState)(0),
           w = [
             {
-              quarter: "Q4 2024",
+              quarter: "Q1 2025",
               title: "Launch Orion AI, Browser Node, and airdrop.",
               image: "/images/roadmap/growing1.svg",
             },

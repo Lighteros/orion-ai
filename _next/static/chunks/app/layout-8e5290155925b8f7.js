@@ -358,7 +358,7 @@
                           }),
                         }),
                         (0, r.jsx)(i.default, {
-                          href: "https://www.dextools.io/app/en/ether/pool-explorer/0x00000000000000000000000000000000000000",
+                          href: "https://www.dextools.io/app/en/ether/pair-explorer/0x5ba24cA89835F85134cb84440a773c88961d3771",
                           className: "text-lightGray hover:text-white",
                           target: "_blank",
                           children: (0, r.jsx)(a.default, {
@@ -391,7 +391,7 @@
                           children: [
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "https://etherscan.io/token/0x00000000000000000000000000000000000000",
+                                href: "https://etherscan.io/token/0x5ba24cA89835F85134cb84440a773c88961d3771",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
                                 children: "Contract Address",
@@ -399,7 +399,7 @@
                             }),
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "https://www.dextools.io/app/en/ether/pool-explorer/0x00000000000000000000000000000000000000",
+                                href: "https://www.dextools.io/app/en/ether/pair-explorer/0x5ba24cA89835F85134cb84440a773c88961d3771",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
                                 target: "_blank",
@@ -408,7 +408,7 @@
                             }),
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "https://dexscreener.com/ethereum/0x0123456789",
+                                href: "https://dexscreener.com/ethereum/0x5ba24cA89835F85134cb84440a773c88961d3771",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
                                 target: "_blank",
@@ -488,7 +488,7 @@
                     className: "mt-4 md:mt-0",
                     children: [
                       (0, r.jsx)(i.default, {
-                        href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000",
+                        href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x5ba24cA89835F85134cb84440a773c88961d3771",
                         className: "mr-4 hover:text-primary",
                         children: "Buy On Uniswap",
                       }),

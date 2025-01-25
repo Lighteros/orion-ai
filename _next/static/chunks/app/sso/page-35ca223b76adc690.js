@@ -231,7 +231,7 @@
             if (l) {
               if (!f) {
                 let t =
-                  "https://orion-ai-app-cs.vercel.app" +
+                  "https://app.orion-ai.cc" +
                   "/login?redirect_uri=".concat(
                     encodeURIComponent(window.location.href),
                     "&grant_type=authorization_code"

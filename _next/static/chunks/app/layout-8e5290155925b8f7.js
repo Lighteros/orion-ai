@@ -432,7 +432,7 @@
                           children: [
                             (0, r.jsx)("li", {
                               children: (0, r.jsx)(i.default, {
-                                href: "https://lewy0s-organization.gitbook.io/orion-ai",
+                                href: "https://docs.orion-ai.cc",
                                 className:
                                   "urbanist text-sm font-normal text-lightGray hover:text-primary lg:text-base lg:font-semibold",
                                 target: "_blank",
@@ -665,7 +665,7 @@
                         "absolute right-0 top-[64px] z-[9999999999] w-[182px] rounded-lg bg-white p-3 text-sm font-medium shadow-lg",
                       children: [
                         (0, r.jsx)(u.default, {
-                          href: "https://orion-ai-app-cs.vercel.app/profile",
+                          href: "https://app.orion-ai.cc/profile",
                           children: (0, r.jsxs)("button", {
                             className:
                               "mb-2 flex h-[42px] w-full items-center rounded-lg p-4 text-gray-700 hover:bg-gray-200",
@@ -805,7 +805,7 @@
                       children: "Roadmap",
                     }),
                     (0, r.jsx)(u.default, {
-                      href: "https://lewy0s-organization.gitbook.io/orion-ai",
+                      href: "https://docs.orion-ai.cc",
                       className:
                         "urbanist text-base font-semibold hover:text-primary",
                       target: "_blank",
@@ -838,7 +838,7 @@
                     ].includes(s)
                       ? (0, r.jsx)(N, {})
                       : (0, r.jsx)(u.default, {
-                          href: "https://orion-ai-app-cs.vercel.app",
+                          href: "https://app.orion-ai.cc",
                           className:
                             "poppins hidden rounded-2xl border border-[#00ffa333] bg-[#00FFA333] px-5 py-2 text-base font-bold text-[#00C076] transition duration-300 ease-in-out hover:border-secondary lg:flex",
                           target: "_blank",
@@ -900,14 +900,14 @@
                             children: "Roadmap",
                           }),
                           (0, r.jsx)(u.default, {
-                            href: "https://lewy0s-organization.gitbook.io/orion-ai",
+                            href: "https://docs.orion-ai.cc",
                             target: "_blank",
                             className:
                               "urbanist text-base font-semibold hover:text-primary",
                             children: "Docs",
                           }),
                           (0, r.jsx)(u.default, {
-                            href: "https://orion-ai-app-cs.vercel.app",
+                            href: "https://app.orion-ai.cc",
                             className:
                               "poppins rounded-2xl border border-[#00ffa333] bg-[#00FFA333] px-8 py-3 text-base font-bold text-[#00C076] transition duration-300 ease-in-out hover:border-secondary",
                             target: "_blank",

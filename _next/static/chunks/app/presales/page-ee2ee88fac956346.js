@@ -611,7 +611,7 @@
                                     "The tokens have been transferred to your wallet. Please check your balance in",
                                     " ",
                                     (0, s.jsx)(x.default, {
-                                      href: "https://orion-ai-app-cs.vercel.app/wallet",
+                                      href: "https://app.orion-ai.cc/wallet",
                                       target: "_blank",
                                       className: "font-bold",
                                       children: "MeshChain Wallet",
@@ -1558,7 +1558,7 @@
                                 " ",
                                 (0, s.jsx)("u", {
                                   children: (0, s.jsx)(x.default, {
-                                    href: "https://orion-ai-app-cs.vercel.app/wallet/deposit",
+                                    href: "https://app.orion-ai.cc/wallet/deposit",
                                     target: "_blank",
                                     children: "deposit here",
                                   }),
@@ -1601,7 +1601,7 @@
                         children: "Don’t have enough tokens to buy MCC?",
                       }),
                       (0, s.jsx)(x.default, {
-                        href: "https://orion-ai-app-cs.vercel.app/wallet/deposit",
+                        href: "https://app.orion-ai.cc/wallet/deposit",
                         className: "manrope text-sm font-medium text-[#00FFA3]",
                         target: "_blank",
                         children: "Deposit Now",

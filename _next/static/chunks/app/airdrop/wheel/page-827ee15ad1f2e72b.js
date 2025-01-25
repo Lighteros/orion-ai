@@ -1480,7 +1480,7 @@
                           "You can view your rewards in the",
                           " ",
                           (0, s.jsx)(h.default, {
-                            href: "https://orion-ai-app-cs.vercel.app/wallet",
+                            href: "https://app.orion-ai.cc/wallet",
                             target: "_blank",
                             className: "text-[#00FFA3]",
                             children: "MeshChain Wallet",

@@ -70,7 +70,7 @@
                         "Hurry and join the airdrop before it ends! This is your unique chance to contribute to decentralized AI technology while earning valuable rewards.",
                     }),
                     (0, x.jsx)(t.default, {
-                      href: "https://orion-ai-app-cs.vercel.app",
+                      href: "https://app.orion-ai.cc",
                       children: (0, x.jsx)("button", {
                         className:
                           "h-[54px] rounded-[30px] bg-white px-6 py-3 text-[20px] font-medium text-[#171717] transition hover:bg-gray-200",
@@ -215,21 +215,21 @@
               explanation:
                 "Join MeshNode on Telegram and claim rewards after every session.",
               icon: "/images/airdrop/telegram.svg",
-              url: "https://t.me/meshchain_bot",
+              url: "https://t.me/OrionAI_ERC20",
             },
             {
               title: "Social Media Airdrop",
               explanation:
                 "Follow Orion AI on social media, engage with posts, and earn rewards by completing tasks.",
               icon: "/images/airdrop/twitter.svg",
-              url: "https://orion-ai-app-cs.vercel.app/",
+              url: "https://app.orion-ai.cc/",
             },
             {
               title: "Referral Airdrop",
               explanation:
                 "Invite friends to join Orion AI and earn a percentage of their contributions as rewards.",
               icon: "/images/airdrop/users.svg",
-              url: "https://orion-ai-app-cs.vercel.app/",
+              url: "https://app.orion-ai.cc/",
             },
           ];
         return (0, x.jsxs)("section", {
@@ -1117,7 +1117,7 @@
                   "Join the revolution today and start building the future of AI!",
                   " ",
                   (0, x.jsx)(o.default, {
-                    href: "https://orion-ai-app-cs.vercel.app/login",
+                    href: "https://app.orion-ai.cc/login",
                     children: (0, x.jsx)("span", {
                       className: "font-semibold text-[#00FFA3]",
                       children: "Get started!",

@@ -753,7 +753,7 @@
                     transition: { delay: 0.5, duration: 1 },
                     className: "mt-10 text-center",
                     children: (0, i.jsx)(m.default, {
-                      href: "https://orion-ai-app-cs.vercel.app/",
+                      href: "https://app.orion-ai.cc/",
                       target: "_blank",
                       children: (0, i.jsx)(E, {
                         className:
@@ -821,7 +821,7 @@
                           children: "Buy ORION",
                         }),
                         (0, i.jsx)(m.default, {
-                          href: "https://lewy0s-organization.gitbook.io/orion-ai/",
+                          href: "https://docs.orion-ai.cc/",
                           className:
                             "poppins max-w-[200px] rounded-2xl border border-white px-4 py-3.5 text-center text-base font-bold text-[#00C076] transition duration-300 ease-in-out hover:bg-white hover:text-black md:px-6",
                           target: "_blank",
@@ -1043,7 +1043,7 @@
                   initial: { opacity: 0, y: 50 },
                   ...A,
                   children: (0, i.jsx)(m.default, {
-                    href: "https://orion-ai-app-cs.vercel.app/",
+                    href: "https://app.orion-ai.cc/",
                     children: (0, i.jsx)(E, {
                       className:
                         "poppins h-12 rounded-2xl bg-primary-gradient px-8 py-[14px] font-semibold text-[#003724] transition duration-300 ease-in-out hover:bg-[rgb(0,214,139)] hover:shadow-hover",
@@ -1195,7 +1195,7 @@
                     transition: { delay: 0.5, duration: 1 },
                     className: "mt-10 text-center",
                     children: (0, i.jsx)(m.default, {
-                      href: "https://lewy0s-organization.gitbook.io/orion-ai/product/roadmap",
+                      href: "https://docs.orion-ai.cc/product/roadmap",
                       target: "_blank",
                       children: (0, i.jsx)(E, {
                         className:

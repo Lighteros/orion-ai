@@ -415,7 +415,7 @@
                 }),
                 "My Referrals" === t &&
                   (0, n.jsx)(d.default, {
-                    href: "https://orion-ai-app-cs.vercel.app/referrals",
+                    href: "https://app.orion-ai.cc/referrals",
                     target: "blank",
                     className:
                       "font-poppins hidden h-11 items-center rounded-[30px] px-5 text-[#00FFA3] md:flex",

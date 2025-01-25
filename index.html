@@ -1175,6 +1175,32 @@
       async=""
     ></script>
     <script>
+      function triggerAnimations() {
+        // Select all elements with opacity: 0 or transform styles
+        const animatedElements = document.querySelectorAll('[style*="opacity: 0"]');
+        
+        // Add a small delay to ensure DOM is fully loaded
+        setTimeout(() => {
+          animatedElements.forEach(element => {
+            // Reset the styles to trigger animations
+            element.style.opacity = '1';
+            element.style.transform = 'none';
+            element.style.transition = 'all 0.5s ease-out';
+          });
+        }, 100);
+      }
+    
+      // Trigger animations when DOM is loaded
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', triggerAnimations);
+      } else {
+        triggerAnimations();
+      }
+    
+      // Backup trigger for dynamic content
+      window.addEventListener('load', triggerAnimations);
+    </script>    
+    <script>
       (self.__next_f = self.__next_f || []).push([0]);
       self.__next_f.push([2, null]);
     </script>

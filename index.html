@@ -1175,43 +1175,43 @@
       async=""
     ></script>
     <script>
-      function triggerAnimations() {
-        // Only run if animations haven't been triggered yet
-        if (window.animationsTriggered) return;
-        
-        // Select all elements with opacity: 0 or transform styles
-        const animatedElements = document.querySelectorAll('[style*="opacity: 0"]');
-        
-        // Add a small delay to ensure DOM is fully loaded
-        setTimeout(() => {
-          animatedElements.forEach(element => {
-            // Reset the styles to trigger animations
-            element.style.opacity = '1';
-            element.style.transform = 'none';
-            element.style.transition = 'all 0.5s ease-out';
-            
-            // Remove the style attribute after animation completes
-            element.addEventListener('transitionend', () => {
-              // Keep only essential styles if needed
-              element.removeAttribute('style');
-              element.classList.add('animated'); // Optional: add class to mark as animated
-            }, { once: true });
-          });
-          
-          // Mark animations as triggered
-          window.animationsTriggered = true;
-        }, 100);
+      // Function to load scripts in sequence
+      function loadScripts(scripts, callback) {
+        if (scripts.length === 0) {
+          if (callback) callback();
+          return;
+        }
+    
+        const script = document.createElement('script');
+        script.src = scripts[0];
+        script.onload = function() {
+          loadScripts(scripts.slice(1), callback);
+        };
+        document.body.appendChild(script);
       }
     
-      // Trigger animations when DOM is loaded
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', triggerAnimations);
-      } else {
-        triggerAnimations();
-      }
+      // List your scripts in the order they should load
+      const scripts = [
+        '/_next/static/chunks/webpack-7c1d3e7449a16462.js',
+        '/_next/static/chunks/fd9d1056-443487c7a9f07fb9.js',
+        '/_next/static/chunks/23-76954c03a5335333.js',
+        '/_next/static/chunks/main-app-2e660ed0290f68c3.js',
+        '/_next/static/chunks/974-060ce2372c0943f3.js',
+        '/_next/static/chunks/140-9466d18c6830cefc.js',
+        '/_next/static/chunks/702-00412f75b5054bfe.js',
+        '/_next/static/chunks/293-1b6ec0fb79df596c.js',
+        '/_next/static/chunks/356-8fbb994fbba0650d.js',
+        '/_next/static/chunks/app/page-3393d3b72f028485.js',
+        '/_next/static/chunks/0e5ce63c-eefaf3873631e429.js',
+        '/_next/static/chunks/684-5e3dfd0f7766e930.js',
+        '/_next/static/chunks/956-f3745adcbf6cb992.js',
+        '/_next/static/chunks/143-d68046820f01add5.js',
+        '/_next/static/chunks/905-49e5346fd1a50b25.js',
+        '/_next/static/chunks/app/layout-8e5290155925b8f7.js'
+      ];
     
-      // Backup trigger for dynamic content
-      window.addEventListener('load', triggerAnimations);
+      // Start loading scripts
+      loadScripts(scripts);
     </script>    
     <script>
       (self.__next_f = self.__next_f || []).push([0]);
